@@ -1,0 +1,30 @@
+{
+    "name": "overtrue/laravel-summernote",
+    "description": "Summernote editor integration for Laravel.",
+    "license": "MIT",
+    "keywords": ["summernote", "laravel"],
+    "authors": [
+        {
+            "name": "overtrue",
+            "email": "anzhengchao@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+            "Overtrue\\LaravelSummernote\\":"src/"
+        }
+    },
+    "suggest": {
+        "overtrue/laravel-filesystem-qiniu": "如果你想要使用七牛云存储，也许你需要安装它哦~"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "^1.10"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Overtrue\\LaravelSummernote\\SummernoteServiceProvider"
+            ]
+        }
+    }
+}
