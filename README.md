@@ -38,12 +38,10 @@ $ composer require "overtrue/laravel-summernote"
     <!-- 实例化编辑器 -->
     <script type="text/javascript">
         jQuery(document).ready(function($) {
-          $('#summernote').summernote({
-              height: 300,
-              callbacks: {
-                  onImageUpload: summernoteImageUpload
-              }
-          });
+            $('#summernote').summernote($.extend(summernoteOptions, {
+                height: 300,
+            }));
+        });
     </script>
 
     <!-- 编辑器容器 -->
