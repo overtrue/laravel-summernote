@@ -1,5 +1,5 @@
 {
-    "name": "Hinet/laravel-summernote",
+    "name": "hinet/laravel-summernote",
     "description": "Summernote editor integration for Laravel.",
     "license": "MIT",
     "keywords": ["summernote", "laravel"],
