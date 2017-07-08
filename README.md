@@ -7,7 +7,7 @@ Summernote editor integration for Laravel 5.
 ## 安装
 
 ```shell
-$ composer require "overtrue/laravel-summernote"
+$ composer require "hinet/laravel-summernote"
 ```
 
 ## 配置
