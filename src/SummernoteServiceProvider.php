@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Overtrue\LaravelSummernote;
+namespace Hinet\LaravelSummernote;
 
 use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\Storage;

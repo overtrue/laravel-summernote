@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Overtrue\LaravelSummernote;
+namespace Hinet\LaravelSummernote;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

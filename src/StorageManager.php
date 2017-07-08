@@ -9,13 +9,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Overtrue\LaravelSummernote;
+namespace Hinet\LaravelSummernote;
 
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
-use Overtrue\LaravelSummernote\Events\Uploaded;
-use Overtrue\LaravelSummernote\Events\Uploading;
+use Hinet\LaravelSummernote\Events\Uploaded;
+use Hinet\LaravelSummernote\Events\Uploading;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 /**

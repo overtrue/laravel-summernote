@@ -15,13 +15,13 @@ $ composer require "overtrue/laravel-summernote"
 1. 添加下面一行到 `config/app.php` 中 `providers` 部分：
 
     ```php
-    Overtrue\LaravelSummernote\SummernoteServiceProvider::class,
+    Hinet\LaravelSummernote\SummernoteServiceProvider::class,
     ```
 
 2. 发布配置文件与资源
 
     ```php
-    $ php artisan vendor:publish --provider='Overtrue\LaravelSummernote\SummernoteServiceProvider'
+    $ php artisan vendor:publish --provider='Hinet\LaravelSummernote\SummernoteServiceProvider'
     ```
 
 3. 模板引入编辑器
@@ -84,7 +84,7 @@ $ composer require "overtrue/laravel-summernote"
 
 ### 上传中事件
 
-> Overtrue\LaravelSummernote\Events\Uploading
+> Hinet\LaravelSummernote\Events\Uploading
 
 在保存文件之前，你可以拿到一些信息：
 
@@ -96,7 +96,7 @@ $ composer require "overtrue/laravel-summernote"
 
 ### 上传完成事件
 
-> Overtrue\LaravelSummernote\Events\Uploaded
+> Hinet\LaravelSummernote\Events\Uploaded
 
 它有两个属性：
 
