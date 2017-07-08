@@ -26,5 +26,6 @@
                 "Overtrue\\LaravelSummernote\\SummernoteServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
