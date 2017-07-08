@@ -1,5 +1,5 @@
 {
-    "name": "overtrue/laravel-summernote",
+    "name": "Hinet/laravel-summernote",
     "description": "Summernote editor integration for Laravel.",
     "license": "MIT",
     "keywords": ["summernote", "laravel"],
@@ -7,11 +7,15 @@
         {
             "name": "overtrue",
             "email": "anzhengchao@gmail.com"
+        },
+        {
+            "name": "hinet",
+            "email": "hinet@live.cn"
         }
     ],
     "autoload": {
         "psr-4":{
-            "Overtrue\\LaravelSummernote\\":"src/"
+            "Hinet\\LaravelSummernote\\":"src/"
         }
     },
     "suggest": {
@@ -23,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Overtrue\\LaravelSummernote\\SummernoteServiceProvider"
+                "Hinet\\LaravelSummernote\\SummernoteServiceProvider"
             ]
         }
     },
