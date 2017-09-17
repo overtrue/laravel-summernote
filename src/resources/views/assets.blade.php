@@ -41,7 +41,8 @@ $lang = str_replace('_', '-', config('app.locale'));
               alert('图片上传失败');
             },
             complete: function() {
-                if (summernoteUploadedLength++ == summernoteTotalFiles) {
+                summernoteUploadedLength++;
+                if (summernoteUploadedLength == summernoteTotalFiles) {
                     summerUploadedImages.forEach(function(image) {
                         setTimeout(function(){
                             $(el).summernote('insertImage', image.url, image.filename);
