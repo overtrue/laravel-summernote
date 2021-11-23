@@ -114,6 +114,13 @@ $ composer require "overtrue/laravel-summernote"
 
 你可以监听此事件用于一些后续处理任务，比如记录到数据库。
 
+## Project supported by JetBrains
+
+Many thanks to Jetbrains for kindly providing a license for me to work on this and other open-source projects.
+
+[![](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)](https://www.jetbrains.com/?from=https://github.com/overtrue)
+
+
 # License
 
 MIT
