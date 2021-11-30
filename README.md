@@ -2,6 +2,8 @@
 
 Summernote editor integration for Laravel 5.
 
+[![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me-button-s.svg?raw=true)](https://github.com/sponsors/overtrue)
+
 # 使用
 
 ## 安装
@@ -113,6 +115,8 @@ $ composer require "overtrue/laravel-summernote"
    ```
 
 你可以监听此事件用于一些后续处理任务，比如记录到数据库。
+
+[![Sponsor me](https://github.com/overtrue/overtrue/blob/master/sponsor-me.svg?raw=true)](https://github.com/sponsors/overtrue)
 
 ## Project supported by JetBrains
 
