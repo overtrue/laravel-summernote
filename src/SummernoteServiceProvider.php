@@ -54,7 +54,7 @@ class SummernoteServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(__DIR__.'/config/summernote.php', 'summernote');
-        $this->app->singleton('summernote.storage', function ($app) {
+        $this->app->bind('summernote.storage', function ($app) {
             return new StorageManager(Storage::disk($app['config']->get('summernote.disk', 'public')));
         });
     }
